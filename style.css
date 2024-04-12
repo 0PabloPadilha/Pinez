@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: louis;
+    src: url(Louis\ George\ Cafe/);
+}
+
+*{
+    font-family: 'louis', 'Courier New', Courier, monospace;
+}
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+div#bg{
+    display: block;
+    position: relative;
+    background-image: url(imgs/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    padding: 10px;
+    margin: 0px;
+}
+
+img{
+    display: block;
+    position: absolute;
+    width: 75vw;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#menu{
+    background-color: rgba(255, 255, 255, 0.850);
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+menu#itens{
+    display: none;
+    width: 125px;
+    height: 95px;
+    background-color: rgba(255, 255, 255, 0.850);
+    margin: auto;
+    padding: 0px;
+    border-radius: 5px;
+    position: absolute;
+    top: 97.4px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span.material-symbols-outlined{
+    display: block;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+div#btts a,p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+}
